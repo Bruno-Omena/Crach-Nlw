@@ -1,0 +1,42 @@
+*Java script*
+Variaveis: let, const e tipo Objeto 
+
+Regrinha: Uma variavel declarada como "const" não poderá ser alterada o conteudo,
+apenas variavel declarada como let é possivel alterar o conteudo. 
+
+Uma variavel tipo objeto guarda varias informações por exemplo: Nome,numero e boolean.
+
+**Na estrutração da var objeto sempre usar : (dois pontos) e nao o sinal de =, o
+sinal de= será usando apenas ao passar um valor em uma var do tipo const ou let
+
+**Estruturação de variavel: Let e const. (Na declaração de valores sempre usar aspas normais)
+
+const github = 'Bruno-Omena'
+let github = 'Bruno'
+
+**Estruturação da variavel tipo objeto:
+  
+const user = {
+
+    name: "Bruno Omena",
+    phone: "1234",
+    accept(boolean): "true",
+  }
+*/
+
+Sempre passar as infos para dentro de uma variavel (let ou const), para usar a variavel em uma função e evitar poluição no código, por exemplo:
+
+Function getUserSocialMedia(){
+  const user ="Bruno"
+  
+  fetch(user)
+}
+
+// Arrow Function
+function nomedafuncao(argumentos) {
+  //code
+}
+
+argumentos => {
+  //code
+}
